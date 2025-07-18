@@ -1,0 +1,22 @@
+[project]
+name = "gibmacos-gui"
+version = "1.0.0"
+description = "A modern, user-friendly GUI for downloading macOS installers and recovery images."
+authors = [
+    { name = "Anoop Kumar" },
+    { name = "corpnewt" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "requests>=2.31.0",
+    "pyobjc>=10.1; platform_system=='Darwin'",
+    "tk>=0.1.0"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'$'$'
+ 
